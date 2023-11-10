@@ -22,9 +22,14 @@ $(function () {
       $(this).removeClass('past present').addClass('future');
     }
   });
-  // TODO: Add code to get any user input that was saved in localStorage and set
-  // the values of the corresponding textarea elements. HINT: How can the id
-  // attribute of each time-block be used to do this?
-  //
+  // Add code to get any user input that was saved in localStorage and set
+  // the values of the corresponding textarea elements
+  $('.time-block').each(function () {
+    var hour = $(this).attr('id').split('-')[1];
+    var savedInput = localStorage.getItem(hour);
+    if (savedInput) {
+      $(this).find('.description').val(savedInput);
+    }
+  });
   // TODO: Add code to display the current date in the header of the page.
 });
