@@ -13,8 +13,9 @@ A simple calendar application that allows a user to save events for each hour of
 
 ## Deployed Link
 
+https://platano91.github.io/05-Challenge-WorkDayCalendar/
+
 ## Mock-Up
 
-<!-- @TODO: create ticket to review/update image) -->
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
+![A user clicks on slots on the color-coded calendar and edits the events.](./assets/img/Screenshot%202023-11-10%20at%2010.53.38%20AM.png)
 
